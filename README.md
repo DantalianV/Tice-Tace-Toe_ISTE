@@ -1,4 +1,4 @@
-# Tice-Tace-Toe_ISTE
+# Tice-Tace-Toe ISTE
 
 ## ISTE 3rd round Home Assingment Work
-Simple tic tac toe multiplayer i.e 2 player game 
+Simple tic tac toe multiplayer game i.e 2 player game 
