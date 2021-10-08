@@ -13,8 +13,8 @@ class MainActivity : AppCompatActivity() {
         binding = ActivityMainBinding.inflate(layoutInflater)
         setContentView(binding.root)
 
-        actionBar?.hide()
+        supportActionBar?.hide()
         Handler().postDelayed(Runnable { startActivity(Intent(this, GameActivity::class.java))
-            finish() }, 1000)
+            finish() }, 2000)
     }
 }

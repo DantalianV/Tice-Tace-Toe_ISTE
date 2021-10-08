@@ -108,7 +108,7 @@ class GameActivity : AppCompatActivity() {
                 exitProcess(1)
 
             }
-            Handler().postDelayed(Runnable { build.show() }, 2000)
+            build.show()
             return 1
 
 
@@ -136,7 +136,7 @@ class GameActivity : AppCompatActivity() {
             build.setNegativeButton("Exit") { _, _ ->
                 exitProcess(1)
             }
-            Handler().postDelayed(Runnable { build.show() }, 2000)
+            build.show()
             return 1
         } else if (emptyCell.contains(1) && emptyCell.contains(2) && emptyCell.contains(3) && emptyCell.contains(
                 4
